@@ -112,7 +112,7 @@ const Controller = () => {
         </div>
 
         {/* Recorder */}
-        <div className="fixed bottom-0 w-full py-6 border-t text-center bg-gradient-to-r from-sky-500 to-green-500">
+        <div className="fixed bottom-0 w-full py-6 border-t text-center bg-gradient-to-r from-blue-400 to-emerald-400">
           <div className="flex justify-center items-center w-full">
             <div>
               <RecordMessage handleStop={handleStop} />

@@ -1,6 +1,32 @@
 import React from "react";
 
 type Props = {
+  classText?: string; // Make classText prop optional
+};
+
+function RecordIcon({ classText }: Props) {
+  // Provide a default image URL
+  const defaultImageUrl = "https://cdn.discordapp.com/attachments/1170783889158058144/1172742965131755531/borpa.png";
+
+  return (
+    <>
+      <img
+        src={defaultImageUrl}
+        alt="Custom Record Icon"
+        className={"w-16 h-9 " + (classText || "")} // Add classText only if it exists
+      />
+    </>
+  );
+}
+
+export default RecordIcon;
+
+
+
+
+/*import React from "react";
+
+type Props = {
   classText: string;
 };
 
@@ -25,4 +51,4 @@ function RecordIcon({ classText }: Props) {
   );
 }
 
-export default RecordIcon;
+export default RecordIcon;*/
