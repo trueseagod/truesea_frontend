@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 type Props = {
   classText?: string; // Make classText prop optional
@@ -19,12 +19,12 @@ function RecordIcon({ classText }: Props) {
   );
 }
 
-export default RecordIcon;
+export default RecordIcon;*/
 
 
 
 
-/*import React from "react";
+import React from "react";
 
 type Props = {
   classText: string;
@@ -51,4 +51,4 @@ function RecordIcon({ classText }: Props) {
   );
 }
 
-export default RecordIcon;*/
+export default RecordIcon;
