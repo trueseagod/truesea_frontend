@@ -31,8 +31,8 @@ const Controller = () => {
         // send form data to api endpoint
         await axios
           //.post("http://localhost:8000/post-audio", formData, {
-          //.post("https://trueseabot-api.onrender.com/post-audio/", formData, {
-          .post("https://ajbot.net/post-audio/", formData, {
+          .post("https://trueseabot-api.onrender.com/post-audio/", formData, {
+          //.post("https://ajbot.net/post-audio/", formData, {
             headers: {
               "Content-Type": "audio/mpeg",
             },

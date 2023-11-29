@@ -14,8 +14,8 @@ function Title({ setMessages }: Props) {
 
     await axios
       //.get("http://localhost:8000/reset", {
-      //.get("https://trueseabot-api.onrender.com/reset", {
-      .get("https://ajbot.net/reset", {
+      .get("https://trueseabot-api.onrender.com/reset", {
+      //.get("https://ajbot.net/reset", {
         headers: {
           "Content-Type": "application/json",
         },
